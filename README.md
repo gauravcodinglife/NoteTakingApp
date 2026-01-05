@@ -14,7 +14,7 @@ def add_note ():
     note = (input("Enter your note:"))
     with open (File_name,"a") as file:
         file.write(note + "\n")
-    print ("Note added Successfully!")  #hiii
+    print ("Note added Successfully!")  
 
 
 def view_note ():
