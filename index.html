@@ -1,12 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Note Taking App</title>
+    <style>
+        body { font-family: Arial; margin: 30px; }
+        input, button { padding: 8px; margin: 5px; }
+        .note { background: #f1f1f1; padding: 10px; margin-top: 10px; }
+    </style>
 </head>
 <body>
-    <H1>hi there gaurav</H1>
-    
+
+<h2>My Note Taking App</h2>
+
+<input id="noteInput" placeholder="Write a note..." />
+<button onclick="addNote()">Add</button>
+
+<div id="notes"></div>
+
+<script src="app.js"></script>
 </body>
 </html>
